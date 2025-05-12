@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajnath Pandey | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body><!-- New Navigation Banner -->
+<nav class="top-banner">
+    <div class="nav-container">
+        <a href="#about" class="nav-btn">About Me</a>
+        <a href="#works" class="nav-btn">My Works</a>
+        <a href="#college" class="nav-btn">My University</a>
+        <a href="#set-theory" class="nav-btn">Set Theory Demo</a>
+        <a href="#contact" class="nav-btn">Contact</a>
+    </div>
+</nav>
+    <div class="cursor"></div>
+    <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content" data-animate></div>
+                <div class="profile-image-container">
+                    <img src="profile.jpg" alt="Rajnath Pandey" class="profile-image">
+                </div>
+                <div class="hero-text">
+                    <h1 class="typing"></h1>
+                    <p class="subtitle">Computer Science undergrad @ South Asian University</p>
+                    <div class="hero-buttons">
+                        <a href="#works" class="btn primary">View My Work</a>
+                        <button id="knowMeBtn" class="btn secondary">Know Me More</button>
+
+<script>
+    document.getElementById('knowMeBtn').onclick = function() {
+        window.location.href = "about.html";
+    };
+</script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about" id="about" data-scroll="slide-up"></section>
+        <div class="container">
+            <div class="section-header">
+                
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="image copy 2.png" alt="Rajnath Pandey" class="hex-image">
+                </div>
+                <div class="about-text">
+                    <p>I'm a passionate Computer Science student specializing in web development and Python programming. My journey includes mastering HTML, CSS, JavaScript, and diving into AI/ML concepts. I enjoy solving complex problems through code and creating elegant solutions.</p>
+                    
+                    <div class="skills">
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span>HTML/CSS</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress html"></div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <section class="college" id="college" data-scroll="fade"></section>
+        <div class="section-header">
+            <img src="sau-mini.jpg" class="section-icon" alt="Rajnath">
+            <h2>South Asian University</h2>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="sau1.jpg" alt="South Asian University" style="border-radius:10px">
+            </div>
+            <div class="about-text">
+                <p>South Asian University (SAU) is an international university established by the eight member states of SAARC. Located in New Delhi, SAU attracts students from all SAARC nations, offering world-class education in various disciplines.</p>
+                <p>As a Computer Science undergraduate (2024-2028 batch), I benefit from SAU's interdisciplinary approach and vibrant international community. The university's strong emphasis on research and innovation perfectly complements my interests in web development and AI/ML.</p>
+                <p>SAU's state-of-the-art facilities, including advanced computer labs and an extensive library, provide the ideal environment for technical education. The culturally diverse campus enhances both academic and personal growth, preparing students for global challenges.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Skills Showcase ===== -->
+<section class="skills-showcase" id="skills">
+    <div class="container">
+        <div class="section-header">
+            <img src="profile-mini.jpg" class="section-icon" alt="Rajnath">
+            <h2>What I Bring</h2>
+        </div>
+
+        <div class="skills-logos">
+            <!-- Web Dev -->
+            <div class="skill-item" data-skill="Web Development">
+                <div class="skill-logo">
+                    <i class="fas fa-code"></i>
+                </div>
+                <span class="skill-name">Web Dev</span>
+            </div>
+
+            <!-- HTML5 -->
+            <div class="skill-item" data-skill="HTML5">
+                <div class="skill-logo">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <span class="skill-name">HTML5</span>
+            </div>
+
+            <!-- CSS3 -->
+            <div class="skill-item" data-skill="CSS3">
+                <div class="skill-logo">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <span class="skill-name">CSS3</span>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="skill-item" data-skill="JavaScript">
+                <div class="skill-logo">
+                    <i class="fab fa-js"></i>
+                </div>
+                <span class="skill-name">JavaScript</span>
+            </div>
+
+            <!-- Python -->
+            <div class="skill-item" data-skill="Python">
+                <div class="skill-logo">
+                    <i class="fab fa-python"></i>
+                </div>
+                <span class="skill-name">Python</span>
+            </div>
+
+            <!-- AI/ML -->
+            <div class="skill-item" data-skill="AI/ML">
+                <div class="skill-logo">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <span class="skill-name">AI/ML</span>
+            </div>
+
+            <!-- Git -->
+            <div class="skill-item" data-skill="Version Control">
+                <div class="skill-logo">
+                    <i class="fab fa-git-alt"></i>
+                </div>
+                <span class="skill-name">Git</span>
+            </div>
+
+            <!-- UI/UX -->
+            <div class="skill-item" data-skill="UI/UX">
+                <div class="skill-logo">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <span class="skill-name">UI/UX</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="works" id="works">
+    <div class="container">
+        <div class="section-header">
+            
+            <h2>My Works</h2>
+        </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                  
+                    <div class="project-image">
+                        <img src="photoo.jpg" alt="Set Theory Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>Set Theory Operations</h3>
+                        <p>A program generating subsets and proper subsets of sets with various set operations, accompanied by an 18-page documentation.</p>
+                        <div class="project-buttons">
+                            <!-- Replace existing button with this -->
+<a 
+  href="https://github.com/rnpandey84/Computational-thinking/blob/8e4471b79b8c3bcae4328b9a84877606c4256878/code" 
+  class="btn primary"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i class="fab fa-github"></i> View Code
+</a>
+                            <a href="" class="btn secondary">Download PDF</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- More project cards can be added here -->
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="fun-section">
+        <div class="container">
+            <div class="section-header">
+                
+                <h2>Set Theory Demo</h2>
+            </div>
+            <div class="demo-container">
+                <div class="demo-input">
+                    <label for="set-input">Enter a set (comma separated):</label>
+                    <input type="text" id="set-input" placeholder="e.g., a, b, c">
+                    <button id="generate-btn" class="btn primary">Generate Subsets</button>
+                </div>
+                <div class="demo-output">
+                    <h4>Subsets:</h4>
+                    <div id="subsets-output"></div>
+                    <h4>Proper Subsets:</h4>
+                    <div id="proper-subsets-output"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact" data-scroll="slide-up"></section>
+        <div class="container">
+            <div class="section-header">
+                
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="your email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i> rajnath@students.sau.ac.in</p>
+                    <p><i class="fas fa-phone"></i> +91 xxxxxxxx83</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/ehh_raj/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/raj-nath-pandey-profile/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/sometimes_raj06"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rajnath Pandey. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
